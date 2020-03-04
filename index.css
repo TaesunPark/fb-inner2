@@ -4,7 +4,7 @@ html, body {
     margin:0;
 }
 .head-container{
-    display: block;
+    display: flex;
     height: 40px;
     background-color: #3B5998;
 }
@@ -15,29 +15,29 @@ html, body {
 }
 .head-box2{
     position: relative;
-    left: 800px;
-    bottom: 20px;
+    left: 200px;
 }
 .set1{
     display: inline;
 }
 .set2{
-    position: relative;
     display: inline;
-    bottom: 4px;
+    position: relative;
+    top:4px;
+}
+#image{
+    position: relative;
+    top : 5px;
 }
 .name-box{
-    position: relative;
     display: inline;
     border: 0;
     color: white;
     font-size: 11px;
     padding: 6px;
-    bottom : 10px;
     margin: 0px;
     background-color: #3B5998;
     cursor: pointer;
-    
 }
 .name-box2{
     background-color: #3B5998;
@@ -48,15 +48,9 @@ html, body {
     background-color: teal;
 }
 .name-box1{
-    position: relative;
-    bottom : 5px;
     display: inline;
 }
 
-#image{
-    position: relative;
-    top : 4px;
-}
 .fix-size{
     width: 4%;
     height: auto;
