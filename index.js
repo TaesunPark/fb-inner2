@@ -29,4 +29,4 @@ function myButton(){
         {func.style.display = "inline-block";}
     else
         {func.style.display = "none";}
-}
+} 
